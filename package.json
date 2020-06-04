@@ -8,6 +8,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
@@ -47,7 +48,19 @@
     "parserOptions": {
       "ecmaVersion": 2020
     },
-    "rules": {}
+    "rules": {
+      "linebreak-style": 0,
+      "indent": [
+        "warn",
+        4
+      ],
+      "comma-dangle": 0,
+      "arrow-body-style": 0,
+      "@typescript-eslint/no-inferrable-types": 0,
+      "quote-props": 0,
+      "spaced-comment": 0,
+      "no-underscore-dangle": 0
+    }
   },
   "browserslist": [
     "> 1%",
